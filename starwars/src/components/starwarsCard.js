@@ -4,8 +4,6 @@ import styled from "styled-components";
 const Row = styled.div`
   margin: 0px auto;
   width: 100%;
-  border-top: 0.5px grey solid;
-  border-bottom: 0.5px grey solid;
 `;
 
 const Card = styled.div`
@@ -18,7 +16,7 @@ const Card = styled.div`
   -moz-osx-font-smoothing: grayscale;
 `;
 
-const StarwarsCard = props => {
+const StarWarsCard = props => {
   //console.log(props);
 
   return (
