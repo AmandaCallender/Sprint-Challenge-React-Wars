@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import StarwarsDisplay from "./components/starwarsDisplay";
+import StarwarsDisplay from "./components/StarWarsDisplay";
 import styled from "styled-components";
 
 const ScrollContainer = styled.div`
