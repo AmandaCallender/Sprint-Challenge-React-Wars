@@ -35,4 +35,4 @@ const StarwarsCard = props => {
   );
 };
 
-export default StarwarsCard;
+export default StarWarsCard;

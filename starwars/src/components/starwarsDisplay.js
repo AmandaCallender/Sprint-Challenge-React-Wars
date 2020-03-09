@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import StarwarsCard from "./starwarsCard";
+import StarwarsCard from "./StarWarsCard";
 import Axios from "axios";
 import styled from "styled-components";
 
@@ -11,7 +11,7 @@ const Container = styled.div`
   background-color: rgba(0, 0, 0, 0.75);
 `;
 
-const StarwarsDisplay = () => {
+const StarWarsDisplay = () => {
   const [characters, setCharacters] = useState([]);
 
   useEffect(() => {
@@ -31,4 +31,4 @@ const StarwarsDisplay = () => {
   );
 };
 
-export default StarwarsDisplay;
+export default StarWarsDisplay;
